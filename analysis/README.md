@@ -4,7 +4,8 @@ Scripts used to analyze molecular dynamics simulations of DNA nanodiscs.
 Reads Temperature.xvg, Pressure.xvg, and Density.xvg and generates plots and basic statistics.
 
 * [extract_modified_residues_pymol.pml](extract_modified_residues_pymol.pml)
-Extracts modified phosphorothioate residues from the system using PyMOL and saves them as MOL2 files.
+PyMOL script that selects modified DNA residues and neighboring backbone atoms
+and exports each residue as a MOL2 file for subsequent chirality verification.
 
 * [check_chirality.ipynb](check_chirality.ipynb)
 Uses RDKit to verify the chirality of extracted residues.
