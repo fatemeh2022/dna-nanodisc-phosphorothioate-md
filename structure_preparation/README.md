@@ -12,3 +12,8 @@ and removes them using MDAnalysis. The cleaned structure is written to a new GRO
 * [estimate_nanodisc_lipid_composition.ipynb](estimate_nanodisc_lipid_composition.ipynb) Calculates the estimated number of lipids required to build the DNA nanodisc
 based on DNA length, geometry, and effective lipid area per lipid (APL).
 Outputs the expected number of DMPC and DMTAP molecules.
+
+* [generate_dna_basepair_restraints.ipynb](generate_dna_basepair_restraints.ipynb)
+Identifies complementary DNA base pairs using N1/N3 atoms and generates
+distance restraints for GROMACS simulations. The script creates topology
+entries that enforce base-pair distances during the simulation.
