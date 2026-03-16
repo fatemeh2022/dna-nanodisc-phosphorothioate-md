@@ -16,10 +16,6 @@ Scripts used to build and prepare DNA nanodisc structures before simulations.
 analysis  
 Python and notebook scripts used to analyze molecular dynamics trajectories.
 
-
-figures  
-Scripts used to generate figures for the manuscript.
-
 ---
 
 ## Requirements
