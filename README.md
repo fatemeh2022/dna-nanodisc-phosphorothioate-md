@@ -19,14 +19,11 @@ Python and notebook scripts used to analyze molecular dynamics trajectories.
 ---
 
 ## Requirements
-
 Python 3.9+
-
 Required packages:
-
 - MDAnalysis
 - NumPy
 - Pandas
 - Matplotlib
 
----
+
